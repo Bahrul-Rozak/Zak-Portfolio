@@ -1,0 +1,546 @@
+body {
+    background-image: url(../images/bg-body.jpg);
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+#container {
+    margin: 0 auto;
+    width: 860px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#content {
+    clear: both;
+    background-color: #FFF;
+}
+
+.transition {
+    transition: all .5s ease;
+}
+
+
+/* Start Profile Section */
+
+#profile {
+    background: #1E272C;
+    background-image: url(../images/header-shadow.png);
+    background-position: center bottom;
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+
+.about {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 490px;
+}
+
+.about .photo-inner {
+    float: left;
+    background: url(../images/photo-inner.png) no-repeat;
+    width: 214px;
+    height: 214px;
+    padding: 12px 0 0 19px;
+}
+
+.about .photo-inner img {
+    background-color: #FFF;
+}
+
+.about h1 {
+    font-weight: 900;
+    color: #FFF;
+    line-height: 34px;
+    margin-top: 8px;
+    margin-left: -20px;
+}
+
+.about h3 {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #FFF;
+    line-height: 18px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*h3.main-heading .now{
+        background: #cf455c !important;
+    }*/
+
+.about p {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info {
+    float: left;
+    margin-top: 30px;
+    width: 310px;
+    min-height: 230px;
+    margin-left: 10px;
+    background: url(../images/personal-info-sep.png) no-repeat left top;
+    padding: 20px 0 19px 20px;
+}
+
+.personal-info li {
+    line-height: 12px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    float: left;
+    width: 293px;
+}
+
+.personal-info li label {
+    color: #FFF;
+    float: left;
+    padding: 4px 7px;
+    font-weight: 550;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.personal-info li span {
+    float: right;
+    width: 220px;
+    padding-top: 4px;
+    font-weight: 400;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+
+/* End Profile Section */
+
+
+/* Start Share Icon */
+
+header {
+    position: relative;
+    overflow: visible;
+}
+
+span.socials-text {
+    position: absolute;
+    right: 0;
+    color: #FFF;
+    padding: 2px 9px;
+    font-size: 22px;
+    cursor: pointer;
+    top: 10px;
+    border-radius: 70px;
+}
+
+ul.socialicons {
+    opacity: 0;
+    top: -1px;
+    position: relative;
+    transition: all ease 1s;
+    z-index: -1;
+    left: -7px;
+}
+
+ul.socialicons.main {
+    opacity: 1;
+    top: -1px;
+    left: -48px;
+    z-index: 100;
+}
+
+.pulse-button {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    line-height: 15px;
+    border: none;
+    box-shadow: 0 0 0 0 rgb(101, 100, 100);
+    background-color: #cf455c;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 20px;
+}
+
+.pulse-button:hover {
+    color: #4d000d;
+}
+
+.socialicons {
+    float: right;
+    margin-top: 18px;
+    padding-bottom: 18px;
+}
+
+.socialicons li {
+    float: left;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    margin-right: 2px;
+}
+
+.socialicons li a {
+    font-size: 18px;
+    display: block;
+    padding: 1px 8px;
+    background-color: #1E272C;
+    color: #FFF;
+}
+
+.caroufredsel_wrapper {
+    width: 600px!important;
+}
+
+.socialicons li a:hover {
+    color: #4d000d;
+}
+
+.social-icons li:last-child {
+    margin-right: 0
+}
+
+.socialicons .socials-text {
+    padding: 5px 7px!important;
+    height: 26px;
+    background-color: #222;
+    color: #FFF;
+    font-size: 12px;
+}
+
+
+/* End Share Icon */
+
+
+/* Start Menu */
+
+.menu {
+    height: 100px;
+    background-color: #EDEDED;
+    position: relative;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.tabs {
+    height: 116px;
+    position: absolute;
+    margin-top: -14px;
+    z-index: 100;
+}
+
+.tabs li {
+    float: left;
+    height: 116px;
+}
+
+.tabs li>a {
+    padding-top: 28px;
+    width: 115px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    font-size: 15px;
+    color: #B9B9B9;
+    text-align: center;
+    font-weight: 580;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 35px;
+    text-decoration: none;
+    margin-right: 35px;
+}
+
+.tabs li.active {
+    background: url(../images/tab-hover.png) no-repeat;
+}
+
+.tabs li.active a {
+    color: #1E272C;
+}
+
+a.tab-profile.active i:hover {
+    animation: bounce 2s ease-in-out;
+}
+
+@keyframes bounce {
+    0%,
+    20%,
+    40%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+    10% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+.tabs li>a>i {
+    font-size: 45px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+
+/* End Menu */
+
+
+/* Start Profil Picture */
+
+#logo {
+    float: left;
+    overflow: hidden;
+    margin-left: 10px;
+    display: none;
+}
+
+#logo h4 {
+    color: #555;
+    line-height: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    margin-left: 7px;
+}
+
+
+/* End Profil Picture */
+
+
+/* Start Portfolio */
+
+#portfolio {
+    padding: 25px;
+}
+
+#portfolio-list {
+    width: 820px;
+    overflow: hidden;
+}
+
+#portfolio-list li {
+    float: left;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #FBFBFB;
+    border-bottom: 1px solid #E5E5E5;
+    height: 185px;
+    margin-bottom: 30px;
+    width: 180px;
+}
+
+#portfoli-list li:hover {
+    border-bottom: 1px solid #1E272C;
+    height: 185px;
+}
+
+#portfolio-list img {
+    background-color: #FFF;
+    height: 120px;
+    width: 185px;
+}
+
+#portfolio-list li:hover .title {
+    color: #1E272C;
+}
+
+#portfolio-list li .title {
+    font-size: 14px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: #3A3A3A;
+    font-family: 'Roboto condensed', sans-serif;
+    text-transform: uppercase;
+}
+
+#portfolio-list li .categorie {
+    font-size: 11px;
+    line-height: 25px;
+    color: #999;
+}
+
+.cats-filter {
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+    padding: 15px 0;
+}
+
+.cats-filter li a {
+    float: left;
+    margin-right: 7px;
+    color: #FFF;
+    background-color: #777;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    font-family: 'Roboto condensed', sans-serif;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.cats-filter li a:hover {
+    background-color: #1E272C;
+    text-decoration: none;
+}
+
+.cats-filter li a.current {
+    background-color: #1E272C;
+}
+
+.extra-text {
+    font-family: 'Roboto condensed', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: #333 !important;
+}
+
+
+/* End Portfolio */
+
+
+/*-------------------------------------------------------*/
+
+
+/* Start Isotope filtering */
+
+
+/*-------------------------------------------------------*/
+
+.isotope-item {
+    z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+
+.isotope,
+.isotope .isotope-item {
+    /* change duration value to whatever you like */
+    transition-duration: 0.8s;
+}
+
+.isotope {
+    transition-property: height, width;
+}
+
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+
+
+/*-------------------------------------------------------*/
+
+
+/* End Isotope filtering */
+
+
+/*-------------------------------------------------------*/
+
+
+/* Start Contact */
+
+#contact {
+    overflow: hidden;
+    font-family: 'Roboto condensed', sans-serif;
+}
+
+.contact-info,
+.contact-form {
+    float: left;
+    padding: 0 20px;
+}
+
+.contact-info {
+    width: 250px;
+    font-family: 'Roboto condensed', sans-serif;
+}
+
+.contact-form {
+    width: 530px;
+}
+
+.contact-info ul {
+    float: left;
+    border-left: 1px solid #1E272C;
+    padding-left: 18px;
+}
+
+.contact-info ul li {
+    font-size: 13px;
+    line-height: 20px;
+    color: #777;
+    overflow: hidden;
+    font-family: 'Roboto condensed', sans-serif;
+}
+
+#map {
+    height: 300px;
+    margin-bottom: 25px;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+#map iframe {
+    width: 100%;
+}
+
+form .input,
+form textarea {
+    box-shadow: inset 0 5px 17px -13px #333;
+    background: #FDFDFD;
+    border: 1px solid #CED4DA;
+    border-radius: 2px;
+    color: #777;
+    font-size: 12px;
+    height: 30px;
+    outline: none;
+    padding: 7px 10px;
+    resize: none;
+    width: 97%;
+}
+
+form textarea {
+    height: 112px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding-top: 8px;
+}
+
+form label {
+    display: block;
+    color: #999;
+    margin-bottom: 8px;
+    font-size: 13px;
+}
+
+.button {
+    color: #fff;
+    background-color: #1E272C;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+
+/* End Contact */
