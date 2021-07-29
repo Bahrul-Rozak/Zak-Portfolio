@@ -1,2 +1,2 @@
 # Zak-Portfolio
-[Visit Now](https://zak-portfolio.netlify.app/)
+[Visit Site](https://zak-portfolio.netlify.app/)
