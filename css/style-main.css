@@ -21,7 +21,7 @@ span.socials-text {
 }
 
 i.fa.fa-share-alt-square {
-    color: #fff!important;
+    color: #fff !important;
 }
 
 ul.socialicons {
@@ -78,7 +78,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Oswald', sans-serif!important;
+    font-family: 'Oswald', sans-serif !important;
 }
 
 h5 {
@@ -377,14 +377,14 @@ h5 {
 
 .sn {
     color: #fff;
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 700;
     width: 68px;
     height: 68px;
     border: 5px solid #1E272C;
     border-radius: 50%;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
 }
 
 .top-skills {
@@ -404,7 +404,7 @@ h5 {
 }
 
 .bg-warning {
-    background-color: #1E272C!important;
+    background-color: #1E272C !important;
 }
 
 button.setting-icon {
@@ -474,7 +474,7 @@ button#green-color {
 }
 
 #yellow .bg-warning {
-    background-color: #edde45!important;
+    background-color: #edde45 !important;
 }
 
 #yellow .sn {
@@ -532,7 +532,7 @@ button#green-color {
 }
 
 #red .bg-warning {
-    background-color: #1E272C!important;
+    background-color: #1E272C !important;
 }
 
 #red .sn {
@@ -585,7 +585,7 @@ button#green-color {
 }
 
 #blue .bg-warning {
-    background-color: #69decc!important;
+    background-color: #69decc !important;
 }
 
 #blue .sn {
@@ -638,7 +638,7 @@ button#green-color {
 }
 
 #green .bg-warning {
-    background-color: green!important;
+    background-color: green !important;
 }
 
 #green .sn {
@@ -684,6 +684,7 @@ button#green-color {
 /* green color */
 
 @keyframes bounce {
+
     0%,
     20%,
     40%,
@@ -691,12 +692,15 @@ button#green-color {
     100% {
         transform: translateY(0);
     }
+
     10% {
         transform: translateY(0);
     }
+
     30% {
         transform: translateY(-15px);
     }
+
     50% {
         transform: translateY(-5px);
     }

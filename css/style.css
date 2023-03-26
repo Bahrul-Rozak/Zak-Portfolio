@@ -200,7 +200,7 @@ ul.socialicons.main {
 }
 
 .caroufredsel_wrapper {
-    width: 600px!important;
+    width: 600px !important;
 }
 
 .socialicons li a:hover {
@@ -212,7 +212,7 @@ ul.socialicons.main {
 }
 
 .socialicons .socials-text {
-    padding: 5px 7px!important;
+    padding: 5px 7px !important;
     height: 26px;
     background-color: #222;
     color: #FFF;
@@ -274,6 +274,7 @@ a.tab-profile.active i:hover {
 }
 
 @keyframes bounce {
+
     0%,
     20%,
     40%,
@@ -281,12 +282,15 @@ a.tab-profile.active i:hover {
     100% {
         transform: translateY(0);
     }
+
     10% {
         transform: translateY(0);
     }
+
     30% {
         transform: translateY(-20px);
     }
+
     50% {
         transform: translateY(-5px);
     }
@@ -340,7 +344,7 @@ a.tab-profile.active i:hover {
     text-align: center;
     background-color: #FBFBFB;
     border-bottom: 1px solid #E5E5E5;
-    height: 185px;
+    height: 200px;
     margin-bottom: 30px;
     width: 180px;
 }
@@ -354,6 +358,7 @@ a.tab-profile.active i:hover {
     background-color: #FFF;
     height: 120px;
     width: 185px;
+    object-fit: cover;
 }
 
 #portfolio-list li:hover .title {
@@ -368,6 +373,7 @@ a.tab-profile.active i:hover {
     font-family: 'Roboto condensed', sans-serif;
     text-transform: uppercase;
 }
+
 
 #portfolio-list li .categorie {
     font-size: 11px;
